@@ -104,7 +104,6 @@ public class Extension
     }
 }
 ````
-DAP extensions must always have an **Extension** type inside the namespace **DapExtension** with a method **ExtMain(Application)**. This method will be called by LSEdit on startup with a reference to the current LSEdit instance.
+The entry point of a DAP extension is always called **ExtMain(Application)**. This method will be called by LSEdit on startup with a reference to the current LSEdit instance.
 
-As you can see, this method of creating extensions is a lot more powerful, but at the same time it is more complicated and could possibly represent a security risk. Therefore, we recommend sticking to SDK extensions.
-
+As you can see, this method of creating extensions is a lot more powerful, but at the same time it is more complicated to develop and could stop working when a change to the LSEdit UI is made.

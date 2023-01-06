@@ -1,1 +1,2 @@
 https://jgh07.github.io/SampleExtension2.dll;
+https://jgh07.github.io/localize.dll;

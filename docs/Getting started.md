@@ -76,7 +76,7 @@ public class Extension
         // ...and its children
         UIElementCollection _cgChildren = grid.Children;
 
-        // Convert those to an array to
+        // Convert those to an array as well
         object[] childGridChildren = new object[_cgChildren.Count];
         _cgChildren.CopyTo(childGridChildren, 0);
 
